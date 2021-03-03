@@ -1,0 +1,21 @@
+.container {
+  height: 100vh;
+  margin: 0;
+  background: var(--blue);
+}
+
+.container section {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-content: center;
+}
+
+.mainLogo {
+  width: 40rem;
+  height: 50rem;
+  left: -68px;
+  top: 5rem;
+}

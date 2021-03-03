@@ -1,0 +1,86 @@
+.authenticationContainer {
+  display: flex;
+
+  padding: 2rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.authenticationContainer header {
+  height: 0;
+}
+
+.authenticationContainer main {
+  flex: 1;
+  padding: 10rem 0;
+
+  display: grid;
+  justify-content: left;
+  color: var(--white);
+}
+
+.authenticationContainer main strong {
+  font-size: 2rem;
+  font-weight: 600;
+
+  margin: 1.5rem 0 1rem;
+}
+
+.authenticationContainer main > div {
+  max-width: 45%;
+}
+
+.authenticationContainer main p {
+  float: right;
+  max-width: 80%;
+
+  color: var(--text-highlight);
+}
+
+.authenticationContainer footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.authenticationContainer footer input {
+  height: 4rem;
+
+  padding: 0 2rem;
+
+  border: 0;
+  border-radius: 5px 0 0 5px;
+
+  background: linear-gradient(90deg, #4953b8 0%, rgba(73, 83, 184, 0.2) 100%);
+
+  color: var(--white);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.authenticationContainer footer button {
+  height: 4rem;
+  width: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  border-radius: 0 5px 5px 0;
+
+  background: var(--blue-dark);
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  transition: filter 0.2s;
+}
+
+.authenticationContainer footer button:hover {
+  background: var(--green);
+}

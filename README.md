@@ -6,7 +6,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/camisbrussi/moveit-NLW4">
 
-  <a href="https://github.com/Alcsaw/next-level-week-3/commits/master">
+  <a href="https://github.com/camisbrussi/moveit-NLW4/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/camisbrussi/moveit-NLW4">
   </a>
 
